@@ -21,6 +21,10 @@ const router = createBrowserRouter([
       path: '/ActivitiesToDo',
       element: <ActivitiesToDo />
     },
+    {
+      path: "*",
+      element: <Home />
+    },
   ])
 
 export default router

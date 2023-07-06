@@ -5,17 +5,17 @@
 }
 
 .title {
-    text-align: center;
     margin: 1.5rem 0;
+    text-align: center;
 }
 
 .noActivities {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     height: 70vh;
+    justify-content: center;
+    text-align: center;
 }
 
 .noActivitiesImage {

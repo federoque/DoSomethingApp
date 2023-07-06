@@ -52,7 +52,7 @@ const ActivityCard = ({accessibility, activity, id, link, participants, price, t
   return (
     <Card className={styles.card}>
         <Button className= {styles.button} variant="danger" size="sm" onClick={handleDelete}>X</Button>
-        <Card.Img className={styles.image} variant="top" src={image}/>
+        <Card.Img style={window.visualViewport?.width as number < 700 ? {width:"15vw"} : {}} variant="top" src={image} />
         <Card.Body>
             <Card.Title>{activity}</Card.Title>
             <Card.Text>

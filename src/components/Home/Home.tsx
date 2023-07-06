@@ -39,7 +39,6 @@ const Home = () => {
             error: "error",
             image: ''
         })
-        // setType("")
         setParticipants("")
         return setActivity(newActivity)
     }

@@ -8,11 +8,11 @@ import Header from "../Header/Header"
 import { useNavigate } from "react-router-dom";
 import { actions, User } from "../../context/interfaces";
 import { Container } from 'react-bootstrap'
+// @ts-ignore
+import noActivities from '../../images/noActivities.svg'
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import styles from './ActivitiesToDo.module.css'
-// @ts-ignore
-import noActivities from '../../images/noActivities.svg'
 
 
 const ActivitiesToDo = () =>{
