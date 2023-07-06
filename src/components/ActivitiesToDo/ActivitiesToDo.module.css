@@ -1,0 +1,29 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.noActivities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+}
+
+.noActivitiesImage {
+    width: 25vw;
+}
+
+@media screen and (max-width: 700px){
+    .noActivitiesImage {
+        width: 20vw;
+    }
+}
