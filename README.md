@@ -26,7 +26,7 @@ Se abrirá una pestaña del navegador en el puerto 3000
 
 # About App
 
-Platform that delivers random activities from the API `https://www.boredapi.com/`. You may indicate the type of activity and the number of participants for the next search. Also you can save (or romove) those activities you want in "Activities to do" list. App allows creating and loging users.
+Platform that delivers random activities from the API `https://www.boredapi.com/`. You may indicate the type of activity and the number of participants for the next search. Also you can save (or remove) those activities you want in "Activities to do" list. App allows creating and loging users.
 "DoSomethingApp" is a purely Frontend project made with 'React + Typescript', 'Context' for managing of global states. For Styles: components from 'React Bootstrap' library, 'SweetAlert2' for alerts, 'CSSModules' and 'Inline Styles".
 Spoiler comment: App is an exclusively FrontEnd project so users data is stored in the localStorage, but if the page is updated, data of global state of Context will be lost, and the saved activities will not persist.
 
