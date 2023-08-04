@@ -60,4 +60,6 @@ It will open a browser tab on PORT 3000
 
 docker-compose up
 
-Once the image creation is completed and the container is created, open a browser tab on http://localhost:3000
+Once the image creation is completed and the container is created. It wil run on port 3000 (open a browser tab on http://localhost:3000)
+
+
