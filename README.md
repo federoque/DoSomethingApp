@@ -22,6 +22,14 @@ npm start
 
 Se abrirá una pestaña del navegador en el puerto 3000
 
+# Para correrla mediante docker-compose:
+
+- Abrir una terminal parado sobre la carpeta raiz y ejecutar: 
+
+docker-compose up
+
+Una vez finalizada la creación de la imagen y creado el contenedor abrir pestaña del navegador en puerto 3000
+
 ===========================================================================================================
 
 # About App
@@ -45,3 +53,11 @@ Then run:
 npm start
 
 It will open a browser tab on PORT 3000
+
+# Run with docker-compose:
+
+- On root directory open a terminal and run: 
+
+docker-compose up
+
+Once the image creation is completed and the container is created, open a browser tab on http://localhost:3000
